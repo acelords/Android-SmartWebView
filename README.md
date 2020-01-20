@@ -1,3 +1,5 @@
+# AceLords WebView
+
 <!--
  * Android Smart WebView is an Open Source Project available on GitHub (https://github.com/mgks/Android-SmartWebView).
  * Initially developed by Ghazi Khan (https://github.com/mgks) under MIT Open Source License.
@@ -8,15 +10,15 @@
 
 <span align="center" style="text-align:center">
 
-<a href="https://github.com/mgks/Android-SmartWebView/"><img src="https://raw.githubusercontent.com/mgks/Android-SmartWebView/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="100"></a>
+<a href="https://github.com/acelords/Android-SmartWebView/"><img src="https://raw.githubusercontent.com/acelords/Android-SmartWebView/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="100"></a>
 
-[![alt text](https://img.shields.io/badge/variant-java-red.svg)](#config-variables) [![alt text](https://img.shields.io/badge/version-p_%5F0.1-green.svg)](https://github.com/mgks/Android-SmartWebView/releases) [![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mgks/Android-SmartWebView/blob/master/LICENSE)
+[![alt text](https://img.shields.io/badge/variant-java-red.svg)](#config-variables) [![alt text](https://img.shields.io/badge/version-v1-green.svg)](https://github.com/mgks/Android-SmartWebView/releases) [![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mgks/Android-SmartWebView/blob/master/LICENSE)
 
 <h1>Android Smart WebView</h1>
 
 </span><span align="center" style="text-align:center">
 
-**[GETTING STARTED](#getting-started) &middot; [WIKI](https://github.com/mgks/Android-SmartWebView/wiki) &middot; [DOCUMENTATION](https://github.com/mgks/Android-SmartWebView/tree/master/documentation) &middot; [ISSUES](https://github.com/mgks/Android-SmartWebView/issues)**
+**[GETTING STARTED](#getting-started) &middot; [WIKI](https://github.com/acelords/Android-SmartWebView/wiki) &middot; [DOCUMENTATION](https://github.com/acelords/Android-SmartWebView/tree/master/documentation) &middot; [ISSUES](https://github.com/acelords/Android-SmartWebView/issues)**
 
 </span>
 
@@ -28,28 +30,33 @@ A small build with features working out of the box: Live GPS Location, Notificat
 
 ## Table of Contents
 
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Setup](#setup)
-* [Configurations](#configurations)
-  * [Device Permissions](#device-permissions)
-  * [Config Variables](#config-variables)
-  * [Permission Variables](#permission-variables)
-  * [Security Variables](#security-variables)
-  * [Other Variables](#other-variables)
-* [Features](#features)
-  * [GPS Location](#gps-location)
-  * [Camera Input](#camera-input)
-  * [Firebase Messaging](#firebase-messaging)
-  * [Google AdMob](#google-admob)
-  * [Chrome Tab](#chrome-tab)
-  * [Content Sharing](#content-sharing)
-  * [User Interfaces](#user-interfaces)
-  * [Rating System](#rating-system)
-* [Contributing](#contributing)
-* [License](#license)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
+- [AceLords WebView](#acelords-webview)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [Configurations](#configurations)
+    - [Device Permissions](#device-permissions)
+    - [Config Variables](#config-variables)
+    - [Permission Variables](#permission-variables)
+    - [Security Variables](#security-variables)
+    - [Other Variables](#other-variables)
+  - [Features](#features)
+    - [GPS Location](#gps-location)
+    - [Camera Input](#camera-input)
+    - [Firebase Messaging](#firebase-messaging)
+    - [Google AdMob](#google-admob)
+    - [Chrome Tab](#chrome-tab)
+    - [Content Sharing](#content-sharing)
+    - [User Interfaces](#user-interfaces)
+    - [Rating System](#rating-system)
+  - [Contributing](#contributing)
+    - [Know Bugs](#know-bugs)
+  - [Support the Project](#support-the-project)
+      - [There are few ways to support this project -](#there-are-few-ways-to-support-this-project)
+  - [License](#license)
+  - [Acknowledgements](#acknowledgements)
+  - [Contact](#contact)
 
 ## Getting Started
 
@@ -65,7 +72,7 @@ Project was built on Android Studio and requires minimum Android API 21+ (5.0 Lo
 
 1. Download repo or just clone it
 
-   `git clone https://github.com/mgks/Android-SmartWebView`
+   `git clone https://github.com/acelords/Android-SmartWebView`
 
 2. Load project in Android Studio
 
@@ -81,7 +88,7 @@ Project was built on Android Studio and requires minimum Android API 21+ (5.0 Lo
 
 ## Configurations
 
-For more detailed config, check project [Documentation](https://github.com/mgks/Android-SmartWebView/tree/master/documentation).
+For more detailed config, check project [Documentation](https://github.com/acelords/Android-SmartWebView/tree/master/documentation).
 
 ### Device Permissions
 
@@ -114,7 +121,7 @@ hardware.touchscreen
 Complete webpage URL or load local file as `file:///android_res/dir/file.html`
 
 ```kotlin
-ASWV_URL   = "https://github.com/mgks"   // domain or directory or address to any root file
+ASWV_URL   = "com"   // domain or directory or address to any root file
 ```
 
 ### Permission Variables
@@ -254,13 +261,12 @@ If you want to contribute to the project, you're most welcome to do so. Just:
 
 **DONATE:** If this project helped you or your business in any way and you feel like donating some change, you can always buy me a cup of coffee :)
 
-<a href="https://ko-fi.com/Z8Z4BPQ6" target="_blank" title="Buy me a Coffee"><img width="150" style="border:0px;width:150px;display:block;margin:0 auto" src="https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>
+<a href="https://ko-fi.com/acelords" target="_blank" title="Buy me a Coffee"><img width="150" style="border:0px;width:150px;display:block;margin:0 auto" src="https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>
 
 Even your tiniest contribution will be appreciated. 
 
-**PROVIDE FEEDBACK:** Donations help us run things but feedback helps us learn new things and understand you better. Without an honest feedback no good project is possible and your valuable feedbacks are always welcome: just drop an [email](mailto:getmgks@gmail.com).
-
-Report your [issues](https://github.com/mgks/Android-SmartWebView/issues) here.
+**PROVIDE FEEDBACK:** Donations help us run things but feedback helps us learn new things and understand you better. Without an honest feedback no good project is possible and your valuable feedbacks are always welcome: just drop an [email](mailto:info@acelords.space)
+Report your [issues](https://github.com/acelords/Android-SmartWebView/issues) here.
 
 
 ## License
@@ -280,4 +286,4 @@ This project was initially developed by **[Ghazi Khan](https://github.com/mgks)*
 
 **A personal note:** `You all must keep up with programming. It's sometimes difficult and sometimes easy but fun afterall, you can create your own world with programming and that's the beauty of it. So, all the best for your next creation.`
 
-[![Profile](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/mgks)
+[![Profile](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/acelords)

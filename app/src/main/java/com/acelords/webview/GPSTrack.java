@@ -1,4 +1,4 @@
-package mgks.os.webview;
+package com.acelords.webview;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

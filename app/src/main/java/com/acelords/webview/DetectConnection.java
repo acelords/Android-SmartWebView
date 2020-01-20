@@ -1,4 +1,4 @@
-package mgks.os.webview;
+package com.acelords.webview;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

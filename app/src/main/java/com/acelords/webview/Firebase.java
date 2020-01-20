@@ -1,4 +1,4 @@
-package mgks.os.webview;
+package com.acelords.webview;
 
 import android.app.Notification;
 import android.app.NotificationManager;

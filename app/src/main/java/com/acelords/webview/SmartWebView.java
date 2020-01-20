@@ -1,4 +1,4 @@
-package mgks.os.webview;
+package com.acelords.webview;
 
 /*
  * Android Smart WebView is an Open Source Project available on GitHub (https://github.com/mgks/Android-SmartWebView).
@@ -16,7 +16,7 @@ class SmartWebView {
 	static boolean ASWP_CAMUPLOAD     = true;         // enable upload from camera for photos
 	static boolean ASWP_ONLYCAM       = false;        // incase you want only camera files to upload
 	static boolean ASWP_MULFILE       = true;         // upload multiple files in webview
-	static boolean ASWP_LOCATION      = true;         // track GPS locations
+	static boolean ASWP_LOCATION      = false;         // track GPS locations
 
 	static boolean ASWP_RATINGS       = true;         // show ratings dialog; auto configured ; edit method get_rating() for customizations
 
@@ -28,7 +28,7 @@ class SmartWebView {
 	static boolean ASWP_EXTURL        = true;         // open external url with default browser instead of app webview
 
 	static boolean ASWP_TAB           = true;         // instead of default browser, open external URLs in chrome tab
-	static boolean ASWP_ADMOB         = true;         // to load admob or not
+	static boolean ASWP_ADMOB         = false;         // to load admob or not
 
 	static boolean ASWP_EXITDIAL	  = true;		  // confirm to exit app on back press
 
